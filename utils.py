@@ -209,13 +209,15 @@ def get_test_dataloader(mean, std, batch_size=16, num_workers=2, shuffle=True):
         transforms.ToTensor(),
         # transforms.Normalize(mean, std)
     ])
-    #cifar100_test = CIFAR100Test(path, transform=transform_test)
+    # cifar100_test = CIFAR100Test(path, transform=transform_test)
     # cifar100_test = torchvision.datasets.CIFAR100(root='./data', train=False, download=True, transform=transform_test)
     cifar100_test = torchvision.datasets.ImageFolder('./data/test',transform=transform_test)
     cifar100_test_loader = DataLoader(
         cifar100_test, shuffle=shuffle, num_workers=num_workers, batch_size=batch_size)
 
     return cifar100_test_loader
+
+
 
 def compute_mean_std(cifar100_dataset):
     """compute the mean and std of cifar100 dataset

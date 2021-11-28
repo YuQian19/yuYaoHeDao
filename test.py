@@ -24,10 +24,10 @@ from p_r import p_r
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('-net', type=str, required=True, help='net type')
     parser.add_argument('-weights', type=str, required=True, help='the weights file you want to test')
-    parser.add_argument('-gpu', action='store_true', default=False, help='use gpu or not')
+    parser.add_argument('-gpu', action='store_true', default=True, help='use gpu or not')
     parser.add_argument('-b', type=int, default=16, help='batch size for dataloader')
+    # parser.add_argument('-source', type=str, required=True, help='the path to img file')
     args = parser.parse_args()
 
     net = base_resnet()
