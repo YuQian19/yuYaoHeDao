@@ -1,0 +1,13 @@
+./data/test/3\IMG_1205.JPG   :1
+./data/test/3\IMG_1214.JPG   :1
+./data/test/3\IMG_1406.JPG   :2
+./data/test/3\IMG_1409.JPG   :1
+./data/test/3\IMG_1411.JPG   :2
+./data/test/3\IMG_1412.JPG   :2
+./data/test/3\IMG_1413.JPG   :2
+./data/test/3\IMG_1471.JPG   :1
+./data/test/3\IMG_1489.JPG   :1
+./data/test/3\IMG_1490.JPG   :2
+./data/test/3\IMG_1502.JPG   :2
+./data/test/3\IMG_1503.JPG   :1
+./data/test/3\IMG_1504.JPG   :1
